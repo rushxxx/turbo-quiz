@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>КВИЗ Автозапчасти</title>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link type='text/css' rel='stylesheet' href='css/font-awesome.min.css'/>
+		<link type='text/css' rel='stylesheet' href='css/HelveticaNeueCyr.css'/>
+		<link type='text/css' rel='stylesheet' href='style.css'/>
+
+	</head>
+	<body>
+		<div class="container" id="container">
+			<header class="header">
+				<div class="header-logo bro-pic" style="background-image: url(img/logo.png);"></div>
+				<ul class="header-contact">
+					<li class="header-contact-item">
+						<i class="header-contact-icon fa fa-phone"></i>
+						<a class="header-contact-text" href="tel: +79960100010">+7 996 010 00 10</a>
+					</li>
+					<li class="header-contact-item">
+						<i class="header-contact-icon fa fa-envelope-o"></i>
+						<a class="header-contact-text" href="mailto: susaninauto@mail.ru">susaninauto@mail.ru</a>
+					</li>
+				</ul>
+				<nav class="header-menu">menu</nav>
+			</header>
+			<section class="hero" id="hero">
+				<h1>Устали искать нужную запчасть?</h1>
+				<p>Получите расчет стоимости за 2 минуты</p>
+				<button class="button" id="hero-button">Расчитать стоимость</button>
+			</section>
+			
+			<div class="progress-bar" id="progress-bar">
+				<span class="progress-bar-text bro-hide">Пять простых вопросов и Вы узнаете цену на Вашу запчасть</span>
+				<svg class="progress-bar-svg" id="progress-bar-svg" width="100%" height="100%" data-value="40">
+				</svg>
+			</div>
+  			<div class="quiz bro-hide" id='quiz'></div>
+  			
+  			<div class='button' id='prev'><a href='#'>Назад</a></div>
+    		<div class='button' id='next'><a href='#'>Продолжить</a></div>
+    		<div class='button' id='start'> <a href='#'>Отправить</a></div>
+    		<div class='button' id='go'> <a href='http://pixelbro.ru/turboquiz'>Перейти на сайт</a></div>
+			<div class="car" id="car"></div>
+    	</div>
+		
+
+		<!-- <script src='jquery-1.11.0.min.js'></script> -->
+		<script src='questions.json'></script>
+		<script src='quiz.js'></script>
+	</body>
+</html>

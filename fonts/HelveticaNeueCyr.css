@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'helveticaneuecyrbold';
+    src: url('fonts/helveticaneuecyr-bold-webfont.woff2') format('woff2'),
+         url('fonts/helveticaneuecyr-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'helveticaneuecyrlight';
+    src: url('fonts/helveticaneuecyr-light-webfont.woff2') format('woff2'),
+         url('fonts/helveticaneuecyr-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'helveticaneuecyrmedium';
+    src: url('fonts/helveticaneuecyr-medium-webfont.woff2') format('woff2'),
+         url('fonts/helveticaneuecyr-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
